@@ -1,0 +1,106 @@
+.hero-section{
+    height: 100vh;
+    background: url(../images/desktop/image-hero.jpg) no-repeat center/cover padding-box;
+}
+.navbar-nav .nav-link ,.navbar-brand {
+    color: #ffffff; 
+    font-weight:bolder;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar-toggler-icon {
+    background-color: white;
+    color: white; 
+}
+.hero-div {
+    margin-top: 20vh;
+}
+h1 {
+    border: solid white 2px;
+}
+/* ................  */
+/* ----------------------section 2 start ------------------ */
+.div-section2 {
+    position:relative ;
+    margin-bottom: 25px;
+}
+.div-a2 {
+    height: 500px;
+}
+.div-b2 {
+    padding: 4rem 1rem 1rem 5rem;
+    position: absolute;
+    bottom: 0;
+    right:0 ;
+    z-index: 5;
+    background-color: white;
+    margin-top: 25px;
+}
+.div-b2 h2 {
+    font-size: 3rem;
+    line-height: 1;
+}
+/* ----------------------section 2 end ------------------ */
+/* ... */
+/*---------------------- section 3 start------------------------  */
+button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 2px;
+    --tw-border-opacity: 1;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: Alata;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    background-color: white;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.div-b3  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+}
+/* ----------------------------section 3 end ----------------------- */
+/* ..  */
+/* ------------------------footer start ---------------------------- */
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    padding: 0 10px;
+}
+i {
+    font-size: 1.7rem;
+    padding:5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+div.div1-footer p{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+div.div2-footer p{
+    color: rgba(255, 255, 255, 0.426);
+    margin-bottom: 0;
+}
+/* ------------------footer end ------------------------------------ */
